@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OzoneEdu.StockApi", "stock-api\OzoneEdu.StockApi.csproj", "{A5FD1E1B-2BC5-4F38-8AB9-9D965D24CC33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{503FD61F-06C8-454A-B0F5-76B96412334E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{978601CC-B008-4380-9F10-75D5263A6459}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C6678691-C322-48CC-8A53-9EAEB9C764D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{C49F0930-C591-4DCA-A151-5C40CD9A433A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{682F2C3A-5DE7-4A41-BEBC-B66832925974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FD1E1B-2BC5-4F38-8AB9-9D965D24CC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FD1E1B-2BC5-4F38-8AB9-9D965D24CC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FD1E1B-2BC5-4F38-8AB9-9D965D24CC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FD1E1B-2BC5-4F38-8AB9-9D965D24CC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5FD1E1B-2BC5-4F38-8AB9-9D965D24CC33} = {503FD61F-06C8-454A-B0F5-76B96412334E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A972BB8-64AA-42AA-895F-96C2ECEBC8F6}
+	EndGlobalSection
+EndGlobal
